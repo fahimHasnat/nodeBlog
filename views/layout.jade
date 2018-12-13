@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://cdn.ckeditor.com/ckeditor5/11.1.1/classic/ckeditor.js')
+  body
+  body
+  .container
+    img.logo(src='/images/nodejs.png')
+    nav
+      ul
+        li
+          a(href='/') Home
+        li
+          a(href='/posts/add') Add post
+        li
+          a(href='/categories/add') Add Categories
+    block content
+    footer
+      p Nodeblog &copy; 2018
